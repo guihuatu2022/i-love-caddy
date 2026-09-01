@@ -54,8 +54,8 @@ jobs:
             - Cloudflare DNS-01 provider: `github.com/caddy-dns/cloudflare`
 
             Download `caddy-linux-amd64` directly on the VPS, then verify it with `SHA256SUMS`.
-          prerelease: true
-          make_latest: false
+          prerelease: false
+          make_latest: true
           files: |
             caddy-linux-amd64
             SHA256SUMS
